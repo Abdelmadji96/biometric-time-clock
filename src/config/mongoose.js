@@ -15,7 +15,7 @@ const connectDB = async () => {
   });
 
   db.on('error', (error) => {
-    onsole.log('Database Connection error:', error);
+    console.log('Database Connection error:', error);
   });
 };
 
